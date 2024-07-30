@@ -10,7 +10,7 @@
             text-align: center;
     </style>
     <a>
-        <img src="./assets/img/logo.svg" alt="Epicode" . />
+        <img src="./assets/img/logo.svg" alt="Epicode" height="50"/>
     </a>
 
     <nav>
@@ -97,7 +97,10 @@
             <fieldset>
                 <legend>Iscrizione Newsletter</legend>
                 <label for="email">e-mail: </label>
-                <input type="email" id="email" name="email"/>
+                <input type="email" id="email" name="email" required/>
+                <br>
+                <input type="checkbox" id="conferma"/>
+                <label for="checkbox">Sicuro di confermare l'iscrizione? </label>
             </fieldset>
             <button type="submit">Conferma l'iscrizione</button>
         </form>
